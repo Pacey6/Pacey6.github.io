@@ -7,6 +7,16 @@
   text-rendering: optimizeLegibility;
 }
 
+::selection {
+  background-color: #eee;
+}
+
+body {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 60px 40px;
+}
+
 a {
   color: #00BCD4;
   -webkit-transition: all 1.15s ease;
@@ -18,6 +28,7 @@ a {
 
 a:hover {
   color: #009688;
+  text-decoration: none;
 }
 
 b, strong {
@@ -120,6 +131,10 @@ code {
 table {
   width: 100%;
   margin-bottom: 16px;
+}
+
+article {
+  margin: 40px auto;
 }
 
 blockquote {

@@ -1,0 +1,78 @@
+.date {
+  color: #bbb;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+  font-weight: 300;
+}
+
+#copyright {
+  color: #bbb;
+  font-size: 14px;
+  text-align: center;
+}
+
+#post-title {
+  text-align: center;
+}
+
+#post-list {
+  padding-left: 0px;
+}
+
+#post-list li {
+  display: flex;
+  list-style-type: none;
+  padding: 20px 0px;
+  border-bottom: 1px dashed #eee;
+}
+
+#post-list a {
+  flex: 1;
+  color: #222;
+  font-size: 20px;
+  font-weight: bold;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+#post-list a:hover {
+  color: #009688;
+}
+
+#post-list a p {
+  color: #aaa;
+  font-size: 16px;
+  font-weight: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+#post-list h6 {
+  margin: 5px 0px 5px 10px;
+}
+
+#paginator {
+  display: flex;
+  margin: 20px 0px;
+}
+
+#paginator a {
+  color: #222;
+}
+
+#paginator a:hover {
+  color: #009688;
+}
+
+#page_pre {
+  flex: 1;
+  text-align: left;
+}
+
+#page_next {
+  flex: 1;
+  text-align: right;
+}

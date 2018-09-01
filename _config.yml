@@ -1,0 +1,19 @@
+author: Pacey Lau
+description: Programmer
+timezone: Asia/Shanghai
+plugins: [jekyll-paginate]
+paginate: 10
+permalink: /:categories/:title.html
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
