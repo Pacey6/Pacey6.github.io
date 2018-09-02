@@ -1,8 +1,8 @@
 <nav id="paginator">
   {% if paginator.previous_page %}
-  <a href="{{ paginator.previous_page_path }}" id="page_pre">Newer Posts<-</a>
+  <a href="{{ paginator.previous_page_path }}" id="page-pre">Newer Posts<-</a>
   {% endif %}
   {% if paginator.next_page %}
-  <a href="{{ paginator.next_page_path }}" id="page_next">->Older Posts</a>
+  <a href="{{ paginator.next_page_path }}" id="page-next">->Older Posts</a>
   {% endif %}
 </nav>

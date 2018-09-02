@@ -27,6 +27,10 @@
   border-bottom: 1px dashed #eee;
 }
 
+#post-list li:hover {
+  border-bottom: 1px dashed #222;
+}
+
 #post-list a {
   flex: 1;
   color: #222;
@@ -35,10 +39,6 @@
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-}
-
-#post-list a:hover {
-  color: #009688;
 }
 
 #post-list a p {
@@ -59,20 +59,67 @@
   margin: 20px 0px;
 }
 
-#paginator a {
+#page-pre {
+  flex: 1;
+  text-align: left;
+  color: #666;
+}
+
+#page-pre:hover {
   color: #222;
 }
 
-#paginator a:hover {
-  color: #009688;
-}
-
-#page_pre {
-  flex: 1;
-  text-align: left;
-}
-
-#page_next {
+#page-next {
   flex: 1;
   text-align: right;
+  color: #666;
+}
+
+#page-next:hover {
+  color: #222;
+}
+
+#profile {
+  display: flex;
+  border-bottom: 1px solid #eee;
+  padding: 30px 20px;
+}
+
+#profile a {
+  display: flex;
+  flex: 1;
+}
+
+#profile a img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 3px #fff, 0 0 0 4px #eee;
+}
+
+#profile a div {
+  margin: 0px 20px;
+}
+
+#author {
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0px;
+  line-height: 1em;
+  color: #222;
+}
+
+#description {
+  font-size: 14px;
+  font-weight: normal;
+  letter-spacing: 0px;
+  line-height: 1em;
+  color: #666;
+  margin-bottom: 0px;
+}
+
+#error-title {
+  text-align: center;
+  font-size: 90px;
+  font-weight: bold;
 }
