@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<h1 id="post-title">{{ page.title }}</h1>
+<h6 class="date">{{ page.date | date:"%B %d, %Y" }}</h6>
+<article>{{ content }}</article>
+{% include profile.html %}
+<nav id="paginator">
+  {% if page.previous %}
+  <a href="{{ page.previous.url }}" id="page-pre">{{ page.previous.title }}◄</a>
+  {% endif %}
+  {% if page.next %}
+  <a href="{{ page.next.url }}" id="page-next">►{{ page.next.title }}</a>
+  {% endif %}
+</nav>

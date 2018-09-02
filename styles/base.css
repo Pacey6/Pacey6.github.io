@@ -1,0 +1,143 @@
+*, ::before, ::after {
+  color: #666;
+  line-height: 1.7em;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background-color: #eee;
+}
+
+body {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 60px 40px;
+}
+
+a {
+  color: #00BCD4;
+  -webkit-transition: all 0.15s ease;
+  -moz-transition: all 0.15s ease;
+  -ms-transition: all 0.15s ease;
+  -o-transition: all 0.15s ease;
+  transition: all 0.15s ease;
+}
+
+a:hover {
+  color: #009688;
+  text-decoration: none;
+}
+
+b, strong {
+  color: #555;
+}
+
+h1 {
+  color: #111;
+  line-height: 1.7em;
+  letter-spacing: -1px;
+  font-weight: 200;
+  font-size: 32px;
+}
+
+h2 {
+  color: #222;
+  line-height: 1.7em;
+  letter-spacing: -1px;
+  font-weight: 300;
+  font-size: 28px;
+}
+
+h3 {
+  color: #333;
+  line-height: 1.7em;
+  letter-spacing: -1px;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+h4 {
+  color: #444;
+  line-height: 1.7em;
+  letter-spacing: -1px;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+h5 {
+  color: #555;
+  line-height: 1.7em;
+  letter-spacing: -1px;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+h6 {
+  color: #666;
+  line-height: 1.7em;
+  letter-spacing: -1px;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+hr {
+  color: #eee;
+  margin: 40px auto;
+}
+
+ul>li {
+  list-style-type: square;
+}
+
+th {
+  color: #444;
+  white-space: nowrap;
+  border-bottom: 1px solid #dadadc;
+}
+
+th, td {
+  padding: 10px 15px;
+}
+
+tr>td {
+  border-top: 1px solid #eee;
+}
+
+tr:nth-child(odd)>td {
+  background-color: #fcfcfc;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+  border-radius: 3px;
+}
+
+pre {
+  overflow: auto;
+  white-space: pre-wrap;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 3px;
+}
+
+code {
+  color: #607D8B;
+}
+
+table {
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+article {
+  margin: 40px auto;
+}
+
+blockquote {
+  padding-left: 15px;
+  border-left: 3px solid #eee;
+}
