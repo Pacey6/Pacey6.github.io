@@ -8,9 +8,9 @@ layout: default
 {% include profile.html %}
 <nav id="paginator">
   {% if page.previous %}
-  <a href="{{ page.previous.url }}" id="page-pre">{{ page.previous.title }}<-</a>
+  <a href="{{ page.previous.url }}" id="page-pre">{{ page.previous.title }}◄</a>
   {% endif %}
   {% if page.next %}
-  <a href="{{ page.next.url }}" id="page-next">->{{ page.next.title }}</a>
+  <a href="{{ page.next.url }}" id="page-next">►{{ page.next.title }}</a>
   {% endif %}
 </nav>
